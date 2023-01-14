@@ -1,5 +1,9 @@
 # Custom Linux traceroute utility implementation
 
+## Requirements
+- Linux
+- Super user privileges
+
 ## Building
 Follow these steps to run the program:
 - Clone the repository
@@ -7,4 +11,4 @@ Follow these steps to run the program:
 - `cd build`
 - `cmake ..`
 - `make`
-- Run the output file
+- `sudo ./traceroute <url here>`, for example `sudo ./traceroute google.com`
